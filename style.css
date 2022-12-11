@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background-color: black;
+}
+.clear20x{ height: 20px; }
+.clear100x{ height: 100px; }
+.section img{ border-radius: 20px; }
+
+:root {
+    --color1: #D96495;
+    --color2: #C71C4B;
+    --color3: #F89E68;
+    --color4: #F37228;
+}
+::selection {      background: aqua }
+::-moz-selection { background: aqua }
+
+.color1{ color: #D96495 !important; }
+.color2{ color: #C71C4B !important; }
+.color3{ color: #F89E68 !important; }
+.color4{ color: #F37228 !important; }
+
+/* .............................................................. 
+.................................................................
+
+bulma fix
+
+.................................................................
+.............................................................. */
+
+.title{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 200;
+}
+.section{ background-color: white; } 
+
+/* .............................................................. 
+.................................................................
+
+video
+
+.................................................................
+.............................................................. */
+
+video{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: 1;
+    position: relative;
+}
+.video-overlay{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    z-index: 3;
+    color: goldenrod;
+}
+.video-overlay a{
+    text-transform: uppercase;
+    color: orange;
+    letter-spacing: 2;
+    font-size: 12px;
+    -webkit-transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+    transition: color .5s ease-out;
+}
+.video-overlay a:hover{
+    text-decoration: underline;
+    color: gold;
+}
+.video-space{
+    height: 30px;
+}
+.the-title{
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+}
+.the-title img{
+    width: 80%;
+}
+@media (orientation: portrait){
+    video{
+        object-fit: cover;
+    }
+    .video-overlay img{ width: 50%; }
+    .menu{
+        top: 180px;
+    }
+}
+
+/* .............................................................. 
+.................................................................
+
+bio
+
+.................................................................
+.............................................................. */
+
+.bio{
+    font-family: 'Poppins', sans-serif !important;
+    text-align: justify;
+}
+
+/* .............................................................. 
+.................................................................
+
+mentoria
+
+.................................................................
+.............................................................. */
+
+#section2{
+    background-image: url(assets/section2-bg.png);
+    background-color: #f2f2f2;
+}
+.box{
+    padding: 50px;
+    box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2) !important;
+    border-radius: 20px !important;
+    font-size: 14px;
+    text-align: justify;
+}
+.box p{
+    font-family: 'Poppins', sans-serif !important;
+    height: 160px;
+}
+.box a{
+    background-color: var(--color1);
+    color: aliceblue;
+    border: 0;
+}
+.box-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--color1);
+    color: aliceblue;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 200;
+}
+
