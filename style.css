@@ -3,7 +3,12 @@
 body{
     background-color: black;
 }
-.clear20x{ height: 20px; }
+.clear20x{  height: 20px; }
+
+.clear60x{  height: 60px; }
+.clear70x{  height: 70px; }
+.clear80x{  height: 80px; }
+.clear90x{  height: 90px; }
 .clear100x{ height: 100px; }
 .section img{ border-radius: 20px; }
 
@@ -148,3 +153,49 @@ mentoria
     font-weight: 200;
 }
 
+/* .............................................................. 
+.................................................................
+
+footer
+
+.................................................................
+.............................................................. */
+
+footer p{
+    font-size: 12px;
+    letter-spacing: 4;
+}
+.site-info{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+}
+.site-map li a{
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    font-family: 'Poppins', sans-serif !important;
+    bottom: -40px;
+    color: #666;
+    -webkit-transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+    transition: color .5s ease-out;
+}
+.site-map li a:hover{
+    color: var(--color2);
+    text-decoration: underline;
+}
+.site-map li{
+    margin-bottom: 10px;
+}
+
+.social-media a{
+    color: var(--color1);
+    font-size: 60px;
+    -webkit-transition: color .5s ease-out;
+    -moz-transition: color .5s ease-out;
+    -o-transition: color .5s ease-out;
+    transition: color .5s ease-out;
+}
+.social-media a:hover{
+    color: #666;
+}
