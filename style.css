@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+@font-face {
+    font-family: 'Kiona';
+    src: url('assets/Kiona-Itallic.woff2') format('woff2'),
+        url('assets/Kiona-Itallic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kiona';
+    src: url('assets/Kiona-Regular.woff2') format('woff2'),
+        url('assets/Kiona-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
     background-color: black;
 }
@@ -40,6 +58,24 @@ bulma fix
     font-weight: 200;
 }
 .section{ background-color: white; } 
+.kiona-title{
+    font-family: 'Kiona';
+    font-size: 60px;
+}
+.kiona-supertitle{
+    font-family: 'Kiona';
+    font-size: 60px;
+    line-height: 1;
+}
+.kiona-text{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif !important;
+}
+@media (orientation: portrait){
+    .kiona-supertitle{
+        font-size: 40px;
+    }
+}
 
 /* .............................................................. 
 .................................................................
@@ -112,7 +148,6 @@ bio
 
 .bio{
     font-family: 'Poppins', sans-serif !important;
-    text-align: justify;
 }
 
 /* .............................................................. 
