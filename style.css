@@ -3,8 +3,9 @@
 body{
     background-color: black;
 }
-.clear20x{  height: 20px; }
 
+.clear10x{  height: 10px; }
+.clear20x{  height: 20px; }
 .clear60x{  height: 60px; }
 .clear70x{  height: 70px; }
 .clear80x{  height: 80px; }
