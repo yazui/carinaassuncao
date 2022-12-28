@@ -80,6 +80,34 @@ bulma fix
 /* .............................................................. 
 .................................................................
 
+whatsapp
+
+.................................................................
+.............................................................. */
+.whatsapp{
+    position: fixed;
+    z-index: 99 !important;
+    text-align: right;
+    right: 20px;
+    bottom: 20px;
+    width: 100%;
+}
+.whatsapp img{
+    border-radius: 50px;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.whatsapp img:hover{
+    opacity: .3;
+}
+
+
+/* .............................................................. 
+.................................................................
+
 video
 
 .................................................................
